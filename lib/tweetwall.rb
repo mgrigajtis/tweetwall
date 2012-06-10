@@ -7,6 +7,7 @@ module Tweetwall
     tweet_wall_html = String.new
     twitter_image = String.new
     twitter_feed = Array.new
+    words = String.new
 
     begin
       # Get the tweets from the feed
@@ -48,6 +49,7 @@ module Tweetwall
       twitter_image = nil
       tweet_wall_html = nil
       tweet_html = nil
+      words = nil
     end
   end
 end
