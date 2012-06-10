@@ -23,7 +23,7 @@ The print_tweets method returns an HTML division of Tweets.
 Simply call the print_tweets method like so:
 Tweetwall.print_tweets("oceancucumber")
 
-Optionally, you can specify they number of tweets:
+Optionally, you can specify the number of tweets:
 Tweetwall.print_tweets("oceancucumber", 10)
 
 ## Contributing
