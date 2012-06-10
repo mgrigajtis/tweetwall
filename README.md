@@ -1,6 +1,7 @@
 # Tweetwall
 
-TODO: Write a gem description
+This Gem makes it very wasy to add a Tweet Wall of Twitter feeds for a particular Twitter user
+on your web application.
 
 ## Installation
 
@@ -18,7 +19,12 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+The print_tweets method returns an HTML division of Tweets.
+Simply call the print_tweets method like so:
+Tweetwall.print_tweets("oceancucumber")
+
+Optionally, you can specify they number of tweets:
+Tweetwall.print_tweets("oceancucumber", 10)
 
 ## Contributing
 
