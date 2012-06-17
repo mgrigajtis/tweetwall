@@ -1,12 +1,14 @@
 # Tweetwall
 
 This Gem makes it very wasy to add a Tweet Wall of Twitter feeds for a particular Twitter user
-on your web application.
+on your web application.  This Gem takes care of making the hyperlinks, usernames, and hash tags
+clickable.
 
 ## Installation
 
-Add this line to your application's Gemfile:
+Add these lines to your application's Gemfile:
 
+    gem "twitter"
     gem 'tweetwall'
 
 And then execute:

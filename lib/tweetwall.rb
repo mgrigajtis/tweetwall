@@ -43,6 +43,11 @@ module Tweetwall
           if word.start_with?("@")
             tweet_html = tweet_html.gsub(word, '<a href="http://www.twitter.com/#!/' + word.gsub(/\W$/, "").gsub("@", "") + '" target="_blank">' + word + '</a>')
           end
+
+          # make the hashtag clickable
+          if word.start_with?("#")
+            tweet_html = tweet_html.gsub(word, '<a href="https://twitter.com/#!/search/' + word.gsub("#", "%23") + '">' + word + '</a>')
+          end
         end
 
         tweet_content = tweet_content + '<div class="tweet_line">'
