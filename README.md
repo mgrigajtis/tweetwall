@@ -23,20 +23,9 @@ Or install it yourself as:
 
 The print_tweets method returns an HTML division of Tweets.
 Simply call the print_tweets method like so:
-Tweetwall.print_tweets("oceancucumber")
+Tweetwall.print_tweets("oceancucumber", 5, consumer_key, consumer_secret)
 
 You'll get the full tweet_wall HTML division
-
-Optionally, you can specify the number of tweets:
-Tweetwall.print_tweets("oceancucumber", 10)
-
-There is also a function that you can call that will only print
-the Tweet content.  This is useful if you want to do an AJAX
-refresh on the tweet_wall division without refreshing the entire
-page:
-Tweetwall.print_tweet_content("oceancucumber", 10)
-
-The number of tweets is again optional.
 
 ## Contributing
 
